@@ -1,0 +1,140 @@
+:root {
+--primary-hue: 210;
+  --gray-hue: 240;
+  --color-primary: hsl(var(--primary-hue), 100%, 50%);
+  /* --color-primary-variant: hsl(var(--primary-hue), 100%, 65%); */
+  --color-secondary: #ffb116;
+  /* --color-gray-100: hsl(var(--gray-hue), 47%, 94%); */
+  --color-gray-200: hsl(var(--gray-hue), 26%, 75%);
+  --color-gray-300: hsl(var(--gray-hue), 24%, 64%);
+  --color-gray-400: hsl(
+    var(--gray-hue),
+    16%,
+    41%
+  ); /*saturation and lightness%*/
+  --color-gray-500: hsl(var(--gray-hue), 44%, 25%);
+  --color-gray-600: hsl(var(--gray-hue), 48%, 15%);
+  --container-width-lg: 80%;
+  --container-width-md: 90%;
+  --transition: all 500ms ease;
+}
+ body {
+  font-family: "Montserrat", sans-serif;
+  /* color: var(--color-gray-200); */
+  line-height: 1.7rem;
+  /* overflow: hidden; */
+  background: var(--color-gray-600) url('/src/bg_texture.png');
+  /* text-decoration: white;
+  font-family: sans-serif;
+  background-color:rgb(240, 227, 160); */
+  /* padding: 0 15rem 0 15rem; */
+  /* margin-top: 60px; */
+}
+form{
+    
+    
+    gap: 1.2rem;
+
+}
+input,textarea {
+  
+  
+  padding: 0.5rem 5rem 0.5rem 0;
+  border-radius: 0.5rem ;
+  background: transparent;
+  border: 2px solid var(--color-primary-variant);
+  resize: none;
+  /* color: var(--color-white); */
+}
+
+.con{
+  margin-top: 56px;
+  color: white;
+}
+.formbutton{
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  padding: 0 20rem;
+}
+
+.btn {
+  /* color: black;
+  
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.4rem 1rem;
+    background: #61dafb;
+    border: 2px solid black; */
+    background-color: #4CAF50; /* Set the background color */
+    border: none; /* Remove the border */
+    color: rgb(251, 248, 248); /* Set the text color */
+    padding: 3px 10px; /* Add padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline block */
+    font-size: 16px; /* Set the font size */
+    transition-duration: 0.3s;
+    border-radius: 10%; 
+
+    
+    cursor: pointer;/* Set the transition duration */
+   
+  }
+  .btns{
+    background-color: #4CAF50; /* Set the background color */
+    border: none; /* Remove the border */
+    color: rgb(251, 248, 248); /* Set the text color */
+    padding: 3px 10px; /* Add padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline block */
+    font-size: 16px; /* Set the font size */
+    transition-duration: 0.3s;
+    border-radius: 10%; 
+
+    margin-left: 2rem;
+    cursor: pointer;/* Set the transition duration */
+   
+  }
+  .btn:hover{
+    background-color: rgb(77, 55, 16);
+  }
+  .btn-primary {
+    background: var(--color-primary);
+    color: var(--color-bg);
+  }
+  .button{
+    margin-top: 2rem;
+  }
+  .navigation{
+    position: absolute;
+    top: 0;
+    background:var(--color-primary);
+    left: 0;
+    right: 0;
+    height: 56px;
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  .logo{
+    width: 3rem;
+    display: block;
+  }
+  
+  
+  
+.App {
+  text-align: center;
+  
+ 
+  
+
+}
+.h1{
+ background-color: lightblue;
+}
